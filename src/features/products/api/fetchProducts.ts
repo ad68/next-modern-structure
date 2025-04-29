@@ -3,6 +3,6 @@ import { fetchApi } from '@/shared/config/axiosConfig'
 import { ProductsResponse } from '../types'
 
 export const fetchProducts = async () => {
-    const response: ProductsResponse = await fetchApi.get('https://apitester.ir/api/Products?')
+    const response: ProductsResponse = await fetchApi.get('https://apitester.ir/api/Products')
     return response
 }

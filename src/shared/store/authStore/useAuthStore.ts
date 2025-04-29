@@ -1,4 +1,4 @@
-import { AuthStoreType } from '@/store/authStore/authStore.types'
+/* import { AuthStoreType } from '@/store/authStore/authStore.types'
 import { create } from 'zustand'
 import { persist, devtools } from 'zustand/middleware'
 
@@ -22,4 +22,4 @@ const useAuthStore = create<AuthStoreType>()(
     },
   ),
 )
-export default useAuthStore
+export default useAuthStore */
